@@ -41,6 +41,7 @@ class Config:
     DEFAULT_SERVER_DATETIME_FORMAT = "%s %s" % (
         DEFAULT_SERVER_DATE_FORMAT,
         DEFAULT_SERVER_TIME_FORMAT)
+    DESK_LOGIN = os.environ.get("DESK_LOGIN")
 
     # 自定义配置项 end ..............
 
